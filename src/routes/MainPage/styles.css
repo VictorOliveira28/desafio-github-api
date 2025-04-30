@@ -1,0 +1,27 @@
+.gh-title-container {
+  margin-top: 20px;
+  padding: 0 10px;
+}
+
+.gh-title-container h1 {
+  width: 100%;
+  max-width: 423px;
+  height: 64px;
+  font-size: 48px;
+  color: var(--color-font-secondary);
+}
+
+.gh-title-container h2 {
+  width: 100%;
+  max-width: 423px;
+  margin-bottom: 20px;
+  height: 40px;
+  font-size: 24px;
+  color: var(--color-font-tertiary);
+}
+
+.gh-button-container {
+  max-width: 100%;
+  display: flex;
+  margin-left: 10px;
+}

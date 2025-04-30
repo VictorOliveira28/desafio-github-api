@@ -1,0 +1,15 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  background-color: var(--color-bg-header);
+  height: 62px;
+  width: 100%;
+  max-width: 1440px;
+}
+
+.header-name {
+  padding: 0 30px;
+  font: 24px;
+  font-weight: 500;
+  color: var(--color-font-primary);
+}

@@ -1,0 +1,52 @@
+.gh-search-container {
+  width: 100%;
+  max-width: 1250px;
+  height: 270px;
+  background-color: var(--color-bg-search-container);
+  padding: 50px 50px;
+  border-radius: 16px;
+}
+
+.gh-title h2 {
+  display: flex;
+  align-items: center;
+  color: var(--color-font-secondary);
+  padding: 10px;
+  max-width: 100%;
+  width: 502px;
+  height: 46px;
+  font-weight: 500;
+  font-size: 38px;
+}
+
+.gh-section-container {
+  padding: 30px 20px;
+}
+
+.gh-form-container {
+  padding: 10px 10px;
+}
+
+.gh-form-container input {
+  width: 100%;
+  max-width: 298px;
+  height: 40px;
+  padding: 0 20px;
+  color: var(--color-font-quinary);
+  border-radius: 4px;
+}
+
+.gh-form-container input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.gh-form-container input::placeholder {
+  color: var(--color-font-quaternary);
+}
+
+.gh-button-form-container {
+  margin-top: 20px;
+  max-width: 100%;
+  display: flex;
+}
