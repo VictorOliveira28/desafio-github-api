@@ -10,6 +10,7 @@ function App() {
         <Route path="/" element={<Header />}>
           <Route index element={<MainPage />} />
           <Route path="/buscar" element={<SearchPage />} />
+          <Route path="card-details/:username" element={<SearchPage />} />
         </Route>
       </Routes>
     </BrowserRouter>

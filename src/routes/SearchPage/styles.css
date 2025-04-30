@@ -50,3 +50,7 @@
   max-width: 100%;
   display: flex;
 }
+
+.gh-find-error {
+  padding: 30px 30px;
+}

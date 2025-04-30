@@ -1,0 +1,52 @@
+.gh-card-container {
+  padding: 30px 20px;
+}
+
+.gh-card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 30px;
+  width: 100%;
+  max-width: 1251px;
+  height: 334px;
+  border-radius: 8px;
+  background-color: var(--color-bg-card-container);
+  padding: 50px 50px;
+}
+.gh-card img {
+  width: 100%;
+  max-width: 247px;
+  height: 247px;
+}
+
+.gh-card-information h2 {
+  padding: 8px 0 0 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--color-font-senary);
+}
+
+.gh-card-information p {
+  display: flex;
+  border: 1px solid var(--color-information-border);
+  border-radius: 4px;
+  max-width: 839px;
+  height: 40px;
+  margin-bottom: 10px;
+  align-items: center;
+  padding: 0 10px;
+  color: var(--color-font-septenary);
+  margin-left: 10px;
+}
+
+.gh-card-information {
+  width: 100%;
+  max-width: 902px;
+  background-color: var(--color-bg-information-container);
+}
+
+.gh-card-information a {
+  color: var(--color-font-senary);
+}

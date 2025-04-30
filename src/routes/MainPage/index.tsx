@@ -1,6 +1,6 @@
+import "./styles.css";
 import { Link } from "react-router-dom";
 import Button from "../../components/Button";
-import "./styles.css";
 
 export default function MainPage() {
   return (
